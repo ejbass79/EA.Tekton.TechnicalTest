@@ -1,0 +1,108 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Solution Items", "00. Solution Items", "{BBB31BD7-89B4-43A2-8817-E75918CE699A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Application", "01. Application", "{5FE9137D-14D4-470D-9232-32DF2D34A6AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Domain", "02. Domain", "{82E3DBBA-5D14-4750-A834-30D0AF951C88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Infrastructure", "03. Infrastructure", "{381D80B6-4CB1-47C6-9434-4CD7C7BADCF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Cross", "04. Cross", "{3AADCC57-4A6E-4F33-8A4F-4BCF55AF769C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EA.Tekton.TechnicalTest.WebApi", "src\EA.Tekton.TechnicalTest.WebApi\EA.Tekton.TechnicalTest.WebApi.csproj", "{E37CBBC6-90AA-4BC5-9CC8-44AAD1A82C5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EA.Tekton.TechnicalTest.Domain", "src\EA.Tekton.TechnicalTest.Domain\EA.Tekton.TechnicalTest.Domain.csproj", "{97330350-C7F5-4D13-95EB-E0CD0DFA92DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EA.Tekton.TechnicalTest.Infrastructure", "src\EA.Tekton.TechnicalTest.Infrastructure\EA.Tekton.TechnicalTest.Infrastructure.csproj", "{4BA5F913-2019-418C-A9BB-4F8EC908A148}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EA.Tekton.TechnicalTest.Cross", "src\EA.Tekton.TechnicalTest.Cross\EA.Tekton.TechnicalTest.Cross.csproj", "{A452307D-C617-4BFE-8C00-337127FB5D8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EA.Tekton.TechnicalTest.Cross.Crypto", "src\EA.Tekton.TechnicalTest.Cross.Crypto\EA.Tekton.TechnicalTest.Cross.Crypto.csproj", "{8FFDC9F5-8A7B-4C5E-8995-7F41EEDFB050}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EA.Tekton.TechnicalTest.Cross.Jwt", "src\EA.Tekton.TechnicalTest.Cross.Jwt\EA.Tekton.TechnicalTest.Cross.Jwt.csproj", "{40D8CCED-908D-469A-A25B-308D6DA80835}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EA.Tekton.TechnicalTest.Cross.Health", "src\EA.Tekton.TechnicalTest.Cross.Health\EA.Tekton.TechnicalTest.Cross.Health.csproj", "{256ECFE5-E0D1-4031-837B-0B5DA08BAC6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EA.Tekton.TechnicalTest.Cross.Auth", "src\EA.Tekton.TechnicalTest.Cross.Auth\EA.Tekton.TechnicalTest.Cross.Auth.csproj", "{FF68BA6B-A700-4B65-8914-D2B66EC168AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EA.Tekton.TechnicalTest.Cross.Auth.Infrastructure", "src\EA.Tekton.TechnicalTest.Cross.Auth.Infrastructure\EA.Tekton.TechnicalTest.Cross.Auth.Infrastructure.csproj", "{70B09A70-BF62-436B-ADA3-9C8457A2D577}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EA.Tekton.TechnicalTest.Cross.MemoryCache", "src\EA.Tekton.TechnicalTest.Cross.MemoryCache\EA.Tekton.TechnicalTest.Cross.MemoryCache.csproj", "{787542AE-E87E-4C9E-8559-AE096E5602BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1E9DF13B-CED4-4C91-9823-A4ED2DB8129C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E37CBBC6-90AA-4BC5-9CC8-44AAD1A82C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37CBBC6-90AA-4BC5-9CC8-44AAD1A82C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37CBBC6-90AA-4BC5-9CC8-44AAD1A82C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37CBBC6-90AA-4BC5-9CC8-44AAD1A82C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97330350-C7F5-4D13-95EB-E0CD0DFA92DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97330350-C7F5-4D13-95EB-E0CD0DFA92DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97330350-C7F5-4D13-95EB-E0CD0DFA92DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97330350-C7F5-4D13-95EB-E0CD0DFA92DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BA5F913-2019-418C-A9BB-4F8EC908A148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA5F913-2019-418C-A9BB-4F8EC908A148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA5F913-2019-418C-A9BB-4F8EC908A148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA5F913-2019-418C-A9BB-4F8EC908A148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A452307D-C617-4BFE-8C00-337127FB5D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A452307D-C617-4BFE-8C00-337127FB5D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A452307D-C617-4BFE-8C00-337127FB5D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A452307D-C617-4BFE-8C00-337127FB5D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FFDC9F5-8A7B-4C5E-8995-7F41EEDFB050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FFDC9F5-8A7B-4C5E-8995-7F41EEDFB050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FFDC9F5-8A7B-4C5E-8995-7F41EEDFB050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FFDC9F5-8A7B-4C5E-8995-7F41EEDFB050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40D8CCED-908D-469A-A25B-308D6DA80835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40D8CCED-908D-469A-A25B-308D6DA80835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40D8CCED-908D-469A-A25B-308D6DA80835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40D8CCED-908D-469A-A25B-308D6DA80835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{256ECFE5-E0D1-4031-837B-0B5DA08BAC6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{256ECFE5-E0D1-4031-837B-0B5DA08BAC6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{256ECFE5-E0D1-4031-837B-0B5DA08BAC6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{256ECFE5-E0D1-4031-837B-0B5DA08BAC6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF68BA6B-A700-4B65-8914-D2B66EC168AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF68BA6B-A700-4B65-8914-D2B66EC168AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF68BA6B-A700-4B65-8914-D2B66EC168AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF68BA6B-A700-4B65-8914-D2B66EC168AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70B09A70-BF62-436B-ADA3-9C8457A2D577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B09A70-BF62-436B-ADA3-9C8457A2D577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B09A70-BF62-436B-ADA3-9C8457A2D577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B09A70-BF62-436B-ADA3-9C8457A2D577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787542AE-E87E-4C9E-8559-AE096E5602BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787542AE-E87E-4C9E-8559-AE096E5602BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787542AE-E87E-4C9E-8559-AE096E5602BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787542AE-E87E-4C9E-8559-AE096E5602BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E37CBBC6-90AA-4BC5-9CC8-44AAD1A82C5A} = {5FE9137D-14D4-470D-9232-32DF2D34A6AF}
+		{97330350-C7F5-4D13-95EB-E0CD0DFA92DF} = {82E3DBBA-5D14-4750-A834-30D0AF951C88}
+		{4BA5F913-2019-418C-A9BB-4F8EC908A148} = {381D80B6-4CB1-47C6-9434-4CD7C7BADCF4}
+		{A452307D-C617-4BFE-8C00-337127FB5D8B} = {3AADCC57-4A6E-4F33-8A4F-4BCF55AF769C}
+		{8FFDC9F5-8A7B-4C5E-8995-7F41EEDFB050} = {3AADCC57-4A6E-4F33-8A4F-4BCF55AF769C}
+		{40D8CCED-908D-469A-A25B-308D6DA80835} = {3AADCC57-4A6E-4F33-8A4F-4BCF55AF769C}
+		{256ECFE5-E0D1-4031-837B-0B5DA08BAC6C} = {3AADCC57-4A6E-4F33-8A4F-4BCF55AF769C}
+		{FF68BA6B-A700-4B65-8914-D2B66EC168AD} = {3AADCC57-4A6E-4F33-8A4F-4BCF55AF769C}
+		{70B09A70-BF62-436B-ADA3-9C8457A2D577} = {3AADCC57-4A6E-4F33-8A4F-4BCF55AF769C}
+		{787542AE-E87E-4C9E-8559-AE096E5602BB} = {3AADCC57-4A6E-4F33-8A4F-4BCF55AF769C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFA9FA28-E59B-40FE-90B1-C327EF57567E}
+	EndGlobalSection
+EndGlobal
